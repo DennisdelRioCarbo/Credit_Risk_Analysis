@@ -12,7 +12,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 - **RandomOverSampler**
    - *Balanced accuracy score*: **0.65 Low**
-  - *Precision*: High precision for low risk 1.00, extremely low precision for high risk 0.01
+  - *Precision*: High precision for low risk 1.00, extremely low precision for high risk 0.01.
   - *Recall*: Low recall for low risk, low recall for high risk.
    
 ![image](https://user-images.githubusercontent.com/104289098/187091507-208f3234-a087-4b69-8ab2-9bd63284339b.png)
@@ -58,4 +58,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ![image](https://user-images.githubusercontent.com/104289098/187091696-a61fc28e-8611-409f-81f8-85d62df4490a.png)
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary 
+- Most models have low *Balanced accuracy scores* which means they are not very good at predicting the classes except for **EasyEnsembleClassifier** .
+- Except for **EasyEnsembleClassifier** the rest of the models rank low for precision and recall for *high risk* meaning they are not detecting high risks and when they are not detecting it accurately.
+- Most models have high precision for low risk with low precision for low risk and low recall for both classes.
+
+## Recommendation
+**EasyEnsembleClassifier** model.
