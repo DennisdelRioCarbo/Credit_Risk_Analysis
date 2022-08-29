@@ -64,4 +64,4 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - Most models have high *precision* for *low risk* with low *precision* for *low risk* and low *recall* for both classes. This all translates in failing to detect high risks.
 
 ## Recommendation
-The **EasyEnsembleClassifier** model is the only on that has high *balanced accuracy score*, with high recall for both high and low risk, high precision for low risk and and low precision for high risk. This is the most precise and maybe most dependable model of all but not without a trade off. It detects accurately which risks are high and which risks are low, but out of the high risks it predicts only 10% turn out to be true. 
+The **EasyEnsembleClassifier** model is the only on that has high *balanced accuracy score*, with high *recall* for both high and low risk, high *precision* for *low risk* and and low *precision* for *high risk*. This is the most precise and maybe most dependable model of all but not without a trade off. It detects accurately which risks are high and which risks are low, but out of the high risks it predicts only 10% turn out to be true. 
